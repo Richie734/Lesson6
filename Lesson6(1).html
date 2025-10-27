@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<script>
+		function showAlert() {
+			alert("You win the game：）"); // call/involk alert method.
+		}
+
+		function changeGoodbye(){
+			document.getElementById('text_id').innerHTML= "Goodbye";
+		}
+
+		function changeNice(){
+			document.getElementById('button_id').innerHTML= "Better";
+		}
+
+	</script>
+</head>
+<body>
+    <div id="text_id">Hi</div>
+	<button onclick="changeGoodbye()">Hello</button>
+
+    <button onclick="changeNice()" id="button_id">NICE</button>
+</body>
+</html>
