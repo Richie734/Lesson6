@@ -6,24 +6,20 @@
 	<title></title>
 
 	<script>
-		function showAlert() {
-			alert("You win the game：）"); // call/involk alert method.
+		function Buttons(){
+			
+			document.getElementById('text_id').innerHTML = "Good";
+			document.getElementById('button1').innerHTML = "Good";
+			document.getElementById('button2').innerHTML = "Good";
+			document.getElementById('button3').innerHTML = "Good";
 		}
-
-		function changeGoodbye(){
-			document.getElementById('text_id').innerHTML= "Goodbye";
-		}
-
-		function changeNice(){
-			document.getElementById('button_id').innerHTML= "Better";
-		}
-
 	</script>
 </head>
 <body>
-    <div id="text_id">Hi</div>
-	<button onclick="changeGoodbye()">Hello</button>
+    <div id="text_id">Nice</div>
 
-    <button onclick="changeNice()" id="button_id">NICE</button>
+	<button onclick="Buttons()" id="button1">Hello</button>
+	<button onclick="Buttons()" id="button2">Nice</button>
+    <button onclick="Buttons()" id="button3">Good</button>
 </body>
 </html>
